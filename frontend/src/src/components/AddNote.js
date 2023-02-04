@@ -1,3 +1,4 @@
+
 const AddNote = ({ currentNote, setCurrentNote, handleAddNote }) => {
 	
 	const characterLimit = 10000;

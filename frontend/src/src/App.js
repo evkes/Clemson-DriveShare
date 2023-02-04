@@ -4,6 +4,8 @@ import { nanoid } from 'nanoid';
 import NotesList from './components/NotesList';
 import Header from './components/Header';
 import AddNote from './components/AddNote';
+import FullCalendar from '@fullcalendar/react' // https://fullcalendar.io/docs/month-view
+import dayGridPlugin from '@fullcalendar/daygrid'
 import Search from './components/Search';
 
 const App = () => {
@@ -130,3 +132,4 @@ const App = () => {
 }
 
 export default App;
+
